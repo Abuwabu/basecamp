@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <WeatherReport />
+    <InstaFeed />
   </div>
 </template>
 
 <script>
 import WeatherReport from '@/components/WeatherReport.vue'
+import InstaFeed from '@/components/InstaFeed.vue'
 
 export default {
   name: 'App',
   components: {
-    WeatherReport
+    WeatherReport,
+    InstaFeed
   }
 }
 </script>
